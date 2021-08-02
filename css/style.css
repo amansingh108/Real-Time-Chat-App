@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgb(82, 224, 82), black);
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+.container{
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    border: 3px solid #0e311f;
+    border-radius: 23px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 9px;
+}
+
+.message{
+    background-color: rgb(226, 221, 221);
+    width: 25%;
+    padding: 9px;
+    margin: 16px 12px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+
+
+#send-container{
+    display: block;
+    margin: auto;
+    max-width: 1030px;
+    width: 100%;
+    text-align: center;
+}
+
+#messageInp{
+    width: 86%;
+    border: 2px solid black; 
+    height: 26px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    width: 8%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 32px;
+    font-size: 11px;
+}
+

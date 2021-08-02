@@ -1,0 +1,1 @@
+ appendFun(`${data} joined the chat`, 'right');
